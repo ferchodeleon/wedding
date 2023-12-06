@@ -1,0 +1,259 @@
+:root {
+    --green: #938a77;
+    --white: #FFF;
+    --orange: #be6f4b;
+    --re: #ccbfb8;
+    --orange-opacity: #ceb0a0;
+}
+
+@font-face {
+    font-family: "Arizonia";
+    src: url("../fonts/Arizonia/Arizonia-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'AlexBrush';
+    src: url('../fonts/Alex_Brush/AlexBrush-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Parisienne';
+    src: url('../fonts/Parisienne/Parisienne-Regular.ttf');
+}
+
+body {
+    background-color: var(--white);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+header div {
+    position: relative;
+    width: 100%;
+    height: 33vh;
+}
+
+header figure {
+    position: absolute;
+    margin: 0;
+}
+
+header div .header-flower {
+    transform: rotate(90deg);
+    top: -163px;
+}
+
+header div .back {
+    position: absolute;
+    right: -0;
+    bottom: -0;
+    transform: rotate(180deg);
+}
+
+header figure img{
+    width: 200px;
+}
+
+.container-name {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: calc(100% - 100%);
+}
+
+.container-name h2 {
+    font-family: 'Parisienne';
+    font-size: 4.5rem;
+    color: var(--green);
+    font-weight: 300;
+}
+
+.container-name h2:first-child {
+    padding-right: 1.2rem;
+}
+
+.container-name img {
+    padding: 0 .5rem;
+    width: 8rem;
+    height: 10rem;
+}
+
+header p {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+header p:last-child {
+    font-family: 'Parisienne';
+    font-size: 2.5rem;
+    color: var(--green)
+}
+
+.cantares {
+    font-family: 'Parisienne';
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--orange)
+}
+
+h2 {
+    color: #5e4c4c;
+}
+
+.photo-cover, .photo-cover figure {
+    margin: 0;
+    padding: 0;
+}
+
+.photo-cover {
+    width: 100%;
+
+}
+
+.photo-cover figure img {
+    width: 100%;
+}
+
+.presentation {
+    position: relative;
+    display: flex;
+    background-image: url("../assets/presentation-flowers.png");
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.presentation img {
+    position: absolute;
+    width: 100%;
+    height: 25vh;
+    right: 0;
+    opacity: 0.3;
+}
+
+.presentation div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.presentation-container {
+    position: relative;
+    width: 50%;
+    height: 25vh;
+}
+
+.presentation-container p {
+    margin: 0;
+}
+
+.presentation div .presentation-liz {
+    font-family: 'Parisienne';
+    font-size: 3rem;
+    position: absolute;
+    color: var(--green)
+}
+
+.presentation div .presentation-y {
+    position: absolute;
+    font-family: 'Parisienne';
+    font-size: 3rem;
+    top: calc(100% - 65%);
+    left: calc(100% - 60%);
+    color: var(--orange)
+}
+
+.presentation div .presentation-fer {
+    position: absolute;
+    font-family: 'Parisienne';
+    font-size: 3rem;
+    bottom: -0;
+    right: -0;
+    color: var(--green);
+}
+
+.date {
+    margin: 2rem 0;
+}
+
+.date p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.date .date-wedding {
+    padding: 1rem 0;
+}
+
+.date .date-wedding p:first-child {
+    font-family: 'AlexBrush';
+    font-size: 2rem;
+    color: var(--re);
+}
+
+.date .date-wedding .day {
+    font-family: 'AlexBrush';
+    font-size: 5rem;
+    color: var(--orange);
+}
+
+.date .date-wedding .year {
+    font-family: 'AlexBrush';
+    font-size: 2rem;
+    color: var(--re);
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 2px solid #8db580;
+}
+
+.event:last-child {
+    border-bottom: none;
+}
+
+.time, .activity {
+    flex: 1;
+}
+
+footer {
+    background-color: #8db580;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    body {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 750px) {
+    body {
+        margin: 0 auto;
+        max-width: 60%;
+    }
+}
