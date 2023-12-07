@@ -64,6 +64,7 @@ header figure img{
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 2rem;
     left: calc(100% - 100%);
 }
 
@@ -74,14 +75,10 @@ header figure img{
     font-weight: 300;
 }
 
-.container-name h2:first-child {
-    padding-right: 1.2rem;
-}
-
 .container-name img {
     padding: 0 .5rem;
-    width: 8rem;
-    height: 10rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 header p {
