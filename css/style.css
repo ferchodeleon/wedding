@@ -22,7 +22,8 @@
 }
 
 body {
-    background-color: var(--white);
+    background-image: url('../assets/background.png');
+    background-size: auto;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -44,8 +45,9 @@ header figure {
 }
 
 header div .header-flower {
-    transform: rotate(90deg);
-    top: -163px;
+    transform: rotate(-26deg);
+    top: -90px;
+    left: -120px;
 }
 
 header div .back {
@@ -56,7 +58,7 @@ header div .back {
 }
 
 header figure img{
-    width: 200px;
+    width: 500px;
 }
 
 .container-name {
@@ -161,7 +163,7 @@ h2 {
 .presentation div .presentation-y {
     position: absolute;
     font-family: 'Parisienne';
-    font-size: 3rem;
+    font-size: 2rem;
     top: calc(100% - 65%);
     left: calc(100% - 60%);
     color: var(--orange)
@@ -171,7 +173,7 @@ h2 {
     position: absolute;
     font-family: 'Parisienne';
     font-size: 3rem;
-    bottom: -0;
+    bottom: -6px;
     right: -0;
     color: var(--green);
 }
@@ -209,48 +211,121 @@ h2 {
     color: var(--re);
 }
 
-.timeline {
+.location {
+    position: relative;
+}
+
+.location > img {
+    position: absolute;
+    top: -100px;
+    left: -150px;
+    transform:  rotate(-70deg);
+    width: 600px;
+    background-size: contain;
+    z-index: -10;
+}
+
+.waze {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.waze img {
+    width: 4rem;
+}
+
+.waze p {
+    margin: 5px 0;
+}
+
+.waze button, .maps button {
+    box-shadow: 2px 2px 10px #A9A9A9 ;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+.waze button a, .maps button a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.waze p, .maps p {
+    font-family: 'AlexBrush';
+    font-size: 1.4rem;
+}
+
+.waze .place, .maps .place {
+    font-weight: 600;
+}
+
+.divider {
+    margin: 0 auto;
+    width: 85%;
+    border: .4px var(--orange) solid;
+}
+
+.maps {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.maps img {
+    width: 4rem;
+}
+
+.maps p {
+    margin: 5px 0;
+}
+
+.itinerario {
+    text-align: center;
+    margin: 0 autor
+}
+
+.itinerario p {
+    margin: 5px 0;
+}
+
+.itinerario .title-itinerario {
+    font-family: 'Parisienne';
+    font-size: 3rem;
+}
+
+.itinerario .ceremonia {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.event {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0;
-    padding: 10px;
-    border-bottom: 2px solid #8db580;
+.itinerario .ceremonia img {
+    text-align: center;
+    width: 50px;
+    height: 50px;
 }
 
-.event:last-child {
-    border-bottom: none;
+.itinerario .ceremonia div {
+    /* margin: 0 30px; */
 }
 
-.time, .activity {
-    flex: 1;
+.itinerario .ceremonia div .description{
+    font-family: 'Parisienne';
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
+
+.dividerI {
+    margin: 0 30px;
+    width: 20%;
+    border: 1px var(--orange) solid;
+}
+
+/* --------------------------------------------------------------------------- */
 
 footer {
-    background-color: #8db580;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-}
-
-@media (min-width: 500px) {
-    body {
-        margin: 0 auto;
-        max-width: 70%;
-    }
-}
-
-@media (min-width: 750px) {
-    body {
-        margin: 0 auto;
-        max-width: 60%;
-    }
+    height: 100px;
 }
