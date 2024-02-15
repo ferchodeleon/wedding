@@ -295,40 +295,6 @@ h2 {
     font-size: 3rem;
 }
 
-.itinerario .photo, .itinerario .photos-sesion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.itinerario .photo img {
-    text-align: center;
-    width: 50px;
-    height: 50px;
-}
-
-.itinerario .photo div {
-    max-width: 4rem;
-}
-
-.itinerario .photo div .description {
-    font-family: 'Parisienne';
-    font-size: .8rem;
-    font-weight: 600;
-    letter-spacing: 3px;
-}
-
-.itinerario .photos-sesion img {
-    width: 50px;
-    height: 50px;
-}
-
-.dividerI {
-    margin: 0 30px;
-    width: 10%;
-    border: 1px var(--orange) solid;
-}
-
 /* --------------------------------------------------------------------------- */
 
 footer {
