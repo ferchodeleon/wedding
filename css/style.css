@@ -295,32 +295,37 @@ h2 {
     font-size: 3rem;
 }
 
-.itinerario .ceremonia {
+.itinerario .photo, .itinerario .photos-sesion {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.itinerario .ceremonia img {
+.itinerario .photo img {
     text-align: center;
     width: 50px;
     height: 50px;
 }
 
-.itinerario .ceremonia div {
-    /* margin: 0 30px; */
+.itinerario .photo div {
+    max-width: 4rem;
 }
 
-.itinerario .ceremonia div .description{
+.itinerario .photo div .description {
     font-family: 'Parisienne';
     font-size: .8rem;
     font-weight: 600;
     letter-spacing: 3px;
 }
 
+.itinerario .photos-sesion img {
+    width: 50px;
+    height: 50px;
+}
+
 .dividerI {
     margin: 0 30px;
-    width: 20%;
+    width: 10%;
     border: 1px var(--orange) solid;
 }
 
