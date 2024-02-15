@@ -183,10 +183,12 @@ h2 {
 }
 
 .date p {
+    font-family: 'Parisienne';
     width: 80%;
     text-align: center;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 2.1rem;
+    font-weight: 100;
 }
 
 .date .date-wedding {
@@ -209,6 +211,32 @@ h2 {
     font-family: 'AlexBrush';
     font-size: 2rem;
     color: var(--re);
+}
+
+.envelopes {
+    text-align: center;
+}
+
+.envelopes p {
+    font-family: 'AlexBrush';
+    font-size: 2.5rem;
+}
+
+.envelopes figure img{
+    width: 6rem;
+}
+
+.reserved-color, .formal {
+    text-align: center;
+}
+
+.reserved-color p, .formal p {
+    font-family: 'AlexBrush';
+    font-size: 2.5rem;
+}
+
+.formal figure img {
+    width: 8rem;
 }
 
 .location {
