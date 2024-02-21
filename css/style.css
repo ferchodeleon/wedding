@@ -253,11 +253,6 @@ h2 {
     z-index: -10;
 }
 
-.location div {
-    display: flex;
-    justify-content: space-around;
-}
-
 .location p {
     margin: 0 auto;
     margin-top: 4rem;
@@ -343,5 +338,10 @@ footer {
 
     .location > img {
         left: 0px;
+    }
+
+    .location div {
+        display: flex;
+        justify-content: space-around;
     }
 }
