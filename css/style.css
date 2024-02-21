@@ -253,6 +253,20 @@ h2 {
     z-index: -10;
 }
 
+.location div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location p {
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-align: center;
+    font-family: 'AlexBrush';
+    font-size: 3rem;
+    width: 70%;
+}
+
 .waze {
     text-align: center;
     margin: 1.5rem 0;
@@ -260,10 +274,6 @@ h2 {
 
 .waze img {
     width: 4rem;
-}
-
-.waze p {
-    margin: 5px 0;
 }
 
 .waze button, .maps button {
@@ -284,6 +294,7 @@ h2 {
 .waze p, .maps p {
     font-family: 'AlexBrush';
     font-size: 1.4rem;
+    margin: 5px auto;
 }
 
 .waze .place, .maps .place {
@@ -292,7 +303,7 @@ h2 {
 
 .divider {
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
     border: .4px var(--orange) solid;
 }
 
@@ -303,10 +314,6 @@ h2 {
 
 .maps img {
     width: 4rem;
-}
-
-.maps p {
-    margin: 5px 0;
 }
 
 .itinerario {
