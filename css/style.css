@@ -244,7 +244,7 @@ button:hover, .date a:hover {
 .date .date-wedding p:first-child {
     font-family: 'AlexBrush';
     font-size: 2rem;
-    color: var(--re);
+    color: #c09c89;
 }
 
 .date .date-wedding .day {
@@ -256,7 +256,7 @@ button:hover, .date a:hover {
 .date .date-wedding .year {
     font-family: 'AlexBrush';
     font-size: 2rem;
-    color: var(--re);
+    color: #c09c89;
 }
 
 .envelopes {
@@ -301,15 +301,15 @@ button:hover, .date a:hover {
 }
 
 .reserved-color .color-container .color3 {
-    background-color: #d4987e;
+    background-color: #999e8c;
 }
 
 .reserved-color .color-container .color4 {
-    background-color: #894006;
+    background-color: #d4987e;
 }
 
 .reserved-color .color-container .color5 {
-    background-color: #000;
+    background-color: #c57f43;
 }
 
 .reserved-color, .formal {
